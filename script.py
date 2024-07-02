@@ -1,7 +1,8 @@
 import time
 from telethon import TelegramClient, events, sync
 import asyncio
-
+from keep_alive import keep_alive
+keep_alive()
 # Account 1 details
 api_id_1 = '22971206'
 api_hash_1 = '680bc7929a4a41bc4ca6d6ef7d61d383'
